@@ -1,0 +1,1739 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* overflow-x: hidden; */
+}
+
+/* Header Section */
+.header {
+    padding: 1vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 100%;
+    background: transparent;
+    position: fixed;
+    z-index: 11;
+}
+
+.header h1 {
+    font-size: 35px;
+    font-weight: 100;
+    font-family: cursive;
+    color: white;
+}
+
+.header h4 {
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* adContainer Section */
+.adContainer {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/img1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+
+}
+
+.adBox h1 {
+    font-size: 40px;
+    color: rgba(255, 217, 0, 0.349);
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+.adBox h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+    font-family: jokar;
+
+}
+
+/* Unlock Section */
+.unlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;
+}
+
+.unlocks .head h2 {
+    color: #c9a485;
+    font: 300 1.6vmax sans-serif;
+    word-spacing: 0.2vmax;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.date .box {
+    width: 425px;
+    height: 150px;
+    border: 2px solid #c9a485;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date .box h2 {
+    color: black;
+    padding: 0.5vmax;
+    font-weight: 400;
+    font-size: 1.1vmax;
+}
+
+.date .box .imgg {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: -70px;
+}
+
+
+/* About Section */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-top: 100px;
+    width: 100%;
+    height: 180px;
+}
+
+.Mains {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    flex-direction: row;
+}
+
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+}
+
+.main1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.main1 p {
+    font-size: 1vmax;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Welcome Section */
+.welcome {
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    height: 80vh;
+}
+
+.welContainer {
+    width: 85vw;
+    max-width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidoo video {
+    width: 500px;
+    height: 400px;
+}
+
+.intro {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: 2.8vmax;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+
+.intro p {
+    width: 80%;
+    text-align: center;
+    line-height: 1.5vmax;
+    margin-top: 20px;
+    font-size: 1vmax;
+}
+
+/* invest Section */
+.invest {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url(https://www.sobharealty.com/images/why-soba-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invest .Dubai {
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.invest .Dubai .blogHeading {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.invest .Dubai .blogHeading h1 {
+    font: 300 3.5vmax sans-serif;
+    padding: 1vmax;
+    color: white;
+}
+
+.invest .Dubai .blogCards {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.invest .Dubai .blogCards .blogCard {
+    width: 350px;
+    margin: 1vmax;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invest .Dubai .blogCards .blogCard .blogimg {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+}
+
+.invest .Dubai .blogCards .blogCard .blogimg i {
+    font-size: 2vmax;
+    color: #c9a485;
+}
+
+.invest .Dubai .blogCards .blogCard .blogpara {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1vmax;
+    color: white;
+}
+
+.invest .Dubai .blogCards .blogCard .blogpara h4 {
+    font: 600 1.3vmax sans-serif;
+}
+
+/* Slick Slider Section */
+.slick-mobile{
+    display: none;
+}
+
+.slick-laptop{
+    display: flex;
+}
+
+.slick {
+    width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slickContainer {
+    width: 80%;
+    overflow: hidden;
+}
+
+.slickBox {
+    width: 100%;
+}
+
+.slickContainer img {
+    width: 10px;
+    height: 300px;
+    margin: 0.6vmax;
+}
+
+.slick-arrow {
+    display: none;
+    visibility: hidden;
+    background: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .container{
+     display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 100px 50px;
+    width: 90%;
+    background-color: white;
+  }
+
+  .container .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+  }
+
+.container .card:hover{
+    height: 300px;
+}
+
+.container .card .imgbx img{
+    width: 90%;
+    height: 100%;
+}
+
+.container .card .content{
+    position: absolute;
+    width: 90%;
+    top: 200px;
+    padding: 0 30px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    top: 12px;
+    height: 250px;
+    padding: 0.5vmax;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container .card .content h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+
+.container .card .content p{
+    color: white;
+    font: 300 1vmax sans-serif;
+    word-spacing: 0.1vmax;
+    line-height: 1.8vmax;
+    text-align: center;
+    /* font-size: 1.05em; */
+}
+
+/* Sign Section */
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sign h1 {
+
+    font-size: 35px;
+    font-weight: 100;
+    align-items: center;
+    font-family: cursive;
+}
+
+.sign h2 {
+    font-size: 10px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Register Selection End  */
+.register {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    /* align-items: center; */
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+.register .interest h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 3vmax;
+}
+
+.form form input[type="text"] {
+    padding: 1vmax;
+    width: 300px;
+    margin-right: 1vmax;
+}
+
+.form form input[type="email"] {
+    padding: 1vmax;
+    width: 300px;
+    margin-top: 1vmax;
+    margin: 1vmax 0;
+}
+
+
+.form button {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 20px;
+    margin: 1vmax;
+    font-size: 15px;
+}
+
+.form button:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* footer Section */
+.footer2 {
+    padding-bottom: 3vmax;
+    height: 18vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 221, 221);
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.list2 ul {
+    padding-left: 150px;
+}
+
+.list2 ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.list2 ul li:hover {
+    color: gray;
+
+}
+
+.copy {
+    padding: 30px;
+    font-size: 15px;
+}
+
+/* Special footer Secction */
+.stickfoot {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    max-width: 100%;
+    padding: 0.5vmax;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stickfoot div:nth-child(1) {
+    border-right: 2px solid black;
+}
+
+.stickfoot div:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+.stickfoot div:nth-child(3) {
+    border-right: 2px solid black;
+}
+
+.stickfoot .stickfootCards {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickfoot .stickfootCards i {
+    font-size: 1.3vmax;
+    padding: 0.3vmax;
+}
+
+.stickfoot .stickfootCards h5 {
+    font: 300 1vmax sans-serif;
+    padding: 0.3vmax;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* Header Section */
+    .header {
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        max-width: 100%;
+        background: transparent;
+        position: fixed;
+        z-index: 11;
+    }
+
+    .header h1 {
+        font-size: 35px;
+        font-weight: 100;
+        font-family: cursive;
+        color: white;
+    }
+
+    .header h4 {
+        font-size: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* adContainer Section */
+    .adContainer {
+        height: 60vh;
+        width: 100%;
+        background-image: url("../images/img1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .adBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+
+    }
+
+    .adBox h1 {
+        font-size: 40px;
+        color: rgba(255, 217, 0, 0.349);
+        font-weight: lighter;
+        font-family: jokar;
+
+    }
+
+    .adBox h2 {
+        font-size: 40px;
+        color: white;
+        font-weight: lighter;
+        font-family: jokar;
+
+    }
+
+    /* Unlock Section */
+    .unlocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .unlocks .head h2 {
+        color: #c9a485;
+    }
+
+    .date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .date .box {
+        width: 425px;
+        height: 150px;
+        border: 2px solid #c9a485;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3vmax;
+    }
+
+    .date .box h2 {
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .date .box .imgg {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        margin-top: -70px;
+    }
+
+
+    /* About Section */
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 10px;
+        margin-top: 0px;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .Mains {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+        flex-direction: row;
+    }
+
+
+    .main2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 85%;
+        flex-direction: row;
+    }
+
+
+    .main1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 350px;
+    }
+
+    .main1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main1 p {
+        font-size: 1.2vmax;
+        line-height: 2vmax;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* Welcome Section */
+    .welcome {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        height: 45vh;
+    }
+
+    .welContainer {
+        width: 85vw;
+        max-width: 85%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video {
+        width: 50%;
+    }
+
+    .vidoo video {
+        width: 300px;
+        height: 380px;
+        margin-bottom: 15vmax;
+    }
+
+    .intro {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro h1 {
+        font-size: 3.5vmax;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 100px;
+        font-weight: 100;
+    }
+
+    .intro p {
+        width: 90%;
+        /* margin-left: 10px; */
+        text-align: center;
+        line-height: 30px;
+        margin-top: 20px;
+        line-height: 2.4vmax;
+        font-size: 1.5vmax;
+    }
+
+    /* invest Section */
+    .invest {
+        width: 100vw;
+        height: 120vh;
+        max-width: 100%;
+        background-image: url(https://www.sobharealty.com/images/why-soba-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .invest .Dubai {
+        width: 100vw;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .invest .Dubai .blogHeading {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invest .Dubai .blogHeading h1 {
+        font: 300 3.5vmax sans-serif;
+        padding: 1vmax;
+        color: white;
+    }
+
+    .invest .Dubai .blogCards {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .invest .Dubai .blogCards .blogCard {
+        width: 350px;
+        margin: 1vmax;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogimg {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1vmax;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogimg i {
+        font-size: 3vmax;
+        color: #c9a485;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogpara {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1vmax;
+        color: white;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogpara h4 {
+        font: 600 1.3vmax sans-serif;
+    }
+
+    /* Slick Slider Section */
+    .slick-laptop{
+        display: none;
+    }
+
+    .slick-mobile{
+        display: flex;
+    }
+
+    .slick {
+        width: 100vw;
+        max-width: 100%;
+        background-color: white;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slickContainer {
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .slickBox {
+        width: 100%;
+    }
+
+    .slickContainer img {
+        width: 10px;
+        height: 300px;
+        margin: 0.6vmax;
+    }
+
+    .slick-arrow {
+        display: none;
+        visibility: hidden;
+        background: none;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        min-height: 20vh;
+      }
+    
+      .container{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 15px 15px;
+        width: 90%;
+        background-color: white;
+      }
+    
+      .container .card{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 600px;
+        height: 250px;
+        margin-right: 2.2vmax;
+      }
+    
+    .container .card:hover{
+        height: 250px;
+    }
+    
+    .container .card .imgbx img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container .card .content{
+        position: absolute;
+        width: 100%;
+        top: 170px;
+        padding: 0 30px;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    }
+    
+    .container .card:hover .content{
+        top: 100px;
+        height: 150px;
+        padding: 0.8vmax;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .card .content h2{
+        font-size: 4vmax;
+        padding-bottom: 1.3vmax;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    
+    .container .card .content p{
+        color: white;
+        font: 300 2vmax sans-serif;
+        word-spacing: 0.4vmax;
+        line-height: 3.2vmax;
+        text-align: center;
+        /* font-size: 1.05em; */
+    }
+
+    /* Sign Section */
+    .sign {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .sign h1 {
+
+        font-size: 35px;
+        font-weight: 100;
+        align-items: center;
+        font-family: cursive;
+    }
+
+    .sign h2 {
+        font-size: 10px;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Register Selection End  */
+    .register {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        max-width: 100%;
+        height: 90vh;
+    }
+
+    .register .interest{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register .interest h1{
+        font: 600 3vmax sans-serif;
+        padding: 0.5vmax;
+    }
+
+    .form form input[type="text"] {
+        padding: 3vmax 5vmax;
+        font: 300 2.5vmax sans-serif;
+        width: 93%;
+        margin-top: 2vmax;
+        margin-left: 1vmax;
+    }
+
+    .form form input[type="email"] {
+        padding: 3vmax 5vmax;
+        width: 93%;
+        margin-top: 2vmax;
+        margin-left: 1vmax;
+        font: 300 2.5vmax sans-serif;
+    }
+
+    .form form input[type="radio"] {
+        margin: 2vmax;
+    }
+
+    .form form input[type="checkbox"] {
+        margin: 2vmax;
+    }
+
+    .form{
+        width: 80vw;
+        max-width: 80%;
+    }
+
+    .form form p{
+        font: 600 2.2vmax sans-serif;
+        padding: 1vmax;
+    }
+
+
+    .form button {
+        width: 75vw;
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        padding: 20px;
+        margin: 1vmax;
+        margin-top: 3vmax;
+        font-size: 3vmax;
+    }
+
+    .form button:hover {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+    }
+
+    /* footer Section */
+    .footer2 {
+        width: 100vw;
+        max-width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgb(224, 221, 221);
+    }
+
+    .list2 {
+        width: 100%;
+        height: 18vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        bottom: 0;
+    }
+
+    .list2 ul {
+        padding-left: 10px;
+    }
+
+    .list2 ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .list2 ul li:hover {
+        color: gray;
+
+    }
+
+    .copy {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vmax;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* Header Section */
+    .header {
+        padding: 1vmax;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        max-width: 100%;
+        background: transparent;
+        position: fixed;
+        z-index: 11;
+    }
+
+    .header h1 {
+        font-size: 35px;
+        font-weight: 100;
+        font-family: cursive;
+        color: white;
+    }
+
+    .header h4 {
+        font-size: 8px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* adContainer Section */
+    .adContainer {
+        height: 60vh;
+        width: 100%;
+        background-image: url("../images/img1.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .adBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 270px;
+
+    }
+
+    .adBox h1 {
+        font-size: 25px;
+        color: rgba(255, 217, 0, 0.349);
+        font-weight: 400;
+        font-family: jokar;
+
+    }
+
+    .adBox h2 {
+        font-size: 28px;
+        color: white;
+        font-weight: 400;
+        font-family: jokar;
+
+    }
+
+    /* Unlock Section */
+    .unlocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 140vh;
+        padding-top: 1vmax;
+    }
+
+    .unlocks .head {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unlocks .head h2 {
+        text-align: center;
+        width: 80%;
+        font: 400 1.9vmax sans-serif;
+        padding: 0.3vmax;
+        word-spacing: 0.2vmax;
+        color: #c9a485;
+    }
+
+    .date {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        height: 120vh;
+    }
+
+    .date .box {
+        width: 425px;
+        height: 150px;
+        border: 2px solid #c9a485;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0vmax;
+        margin-bottom: 0vmax;
+    }
+
+    .date .box h2 {
+        color: black;
+        padding: 2px;
+        font-weight: 400;
+        font-size: 3vmax;
+    }
+
+    .date .box .imgg {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        margin-top: -70px;
+    }
+
+
+    /* About Section */
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+        width: 100%;
+        height: 80vh;
+        padding: 5vmax 15vmax;
+    }
+
+    .Mains {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 40vh;
+        flex-direction: column;
+    }
+
+
+    .main2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 40vh;
+        flex-direction: column;
+    }
+
+
+    .main1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 350px;
+    }
+
+    .main1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .main1 p {
+        font-size: 2vmax;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /* Welcome Section */
+    .welcome {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 0px;
+        height: 90vh;
+    }
+
+    .welContainer {
+        width: 85vw;
+        max-width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .video {
+        width: 50%;
+    }
+
+    .vidoo video {
+        width: 260px;
+        height: 280px;
+    }
+
+    .intro {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro h1 {
+        font-size: 4vmax;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        opacity: 100px;
+        font-weight: 100;
+    }
+
+    .intro p {
+        width: 100%;
+        text-align: justify;
+        line-height: 3vmax;
+        font-size: 2vmax;
+    }
+
+    /* invest Section  */
+    .invest {
+        width: 100vw;
+        height: 120vh;
+        max-width: 100%;
+        background-image: url(https://www.sobharealty.com/images/why-soba-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .invest .Dubai {
+        width: 100vw;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .invest .Dubai .blogHeading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invest .Dubai .blogHeading h1 {
+        font: 300 3vmax sans-serif;
+        padding: 1vmax;
+        color: white;
+    }
+
+    .invest .Dubai .blogCards {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .invest .Dubai .blogCards .blogCard {
+        width: 350px;
+        margin: 1vmax;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogimg {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1vmax;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogimg i {
+        font-size: 4vmax;
+        color: #c9a485;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogpara {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1vmax;
+        color: white;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogpara h4 {
+        font: 600 2vmax sans-serif;
+    }
+
+    .invest .Dubai .blogCards .blogCard .blogpara p {
+        font: 300 2vmax sans-serif;
+        line-height: 2.8vmax;
+        word-spacing: 0.3vmax;
+    }
+
+
+    /* Slick Slider Section */
+    .slick-mobile{
+        display: flex;
+    }
+
+    .slick-laptop{
+        display: none;
+    }
+
+    .slick {
+        width: 100vw;
+        max-width: 100%;
+        background-color: white;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slickContainer {
+        width: 90%;
+        overflow: hidden;
+    }
+
+    .slickBox {
+        width: 100%;
+    }
+
+    .slickContainer img {
+        width: 10px;
+        height: 300px;
+        margin: 0.6vmax;
+    }
+
+    .slick-arrow {
+        display: none;
+        visibility: hidden;
+        background: none;
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 100%;
+        min-height: 20vh;
+      }
+    
+      .container{
+        display: flex; 
+        justify-content: center;
+        align-items: center; 
+        padding: 15px 15px;
+        width: 90%;
+        background-color: white;
+      }
+    
+      .container .card{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 620px;
+        height: 250px;
+        margin: 0 2.2vmax;
+      }
+    
+    .container .card:hover{
+        height: 250px;
+    }
+    
+    .container .card .imgbx img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container .card .content{
+        position: absolute;
+        width: 100%;
+        top: 170px;
+        padding: 0 30px;
+        height: 30px;
+        overflow: hidden;
+        text-align: center;
+        transition: 0.5s;
+    }
+    
+    .container .card:hover .content{
+        top: 52px;
+        height: 150px;
+        padding: 0.8vmax;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .container .card .content h2{
+        font-size: 2vmax;
+        padding-bottom: 1.3vmax;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    
+    .container .card .content p{
+        color: white;
+        font: 300 1.7vmax sans-serif;
+        word-spacing: 0.2vmax;
+        line-height: 2.8vmax;
+        text-align: center;
+        /* font-size: 1.05em; */
+    }
+
+    /* Sign Section */
+    .sign {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .sign h1 {
+
+        font-size: 35px;
+        font-weight: 100;
+        align-items: center;
+        font-family: cursive;
+    }
+
+    .sign h2 {
+        font-size: 10px;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Register Selection End  */
+    .register {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        max-width: 100%;
+        height: 90vh;
+    }
+
+    .register .interest{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .register .interest h1{
+        font: 600 3vmax sans-serif;
+        padding: 0.5vmax;
+    }
+
+    .form form input[type="text"] {
+        padding: 3vmax 5vmax;
+        font: 300 2.5vmax sans-serif;
+        width: 93%;
+        margin-top: 2vmax;
+        margin-left: 1vmax;
+    }
+
+    .form form input[type="email"] {
+        padding: 3vmax 5vmax;
+        width: 93%;
+        margin-top: 2vmax;
+        margin-left: 1vmax;
+        font: 300 2.5vmax sans-serif;
+    }
+
+    .form form input[type="radio"] {
+        margin: 2vmax;
+    }
+
+    .form form input[type="checkbox"] {
+        margin: 2vmax;
+    }
+
+    .form{
+        width: 80vw;
+        max-width: 80%;
+    }
+
+    .form form p{
+        font: 600 2.2vmax sans-serif;
+        padding: 1vmax;
+    }
+
+
+    .form button {
+        width: 75vw;
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        padding: 20px;
+        margin: 1vmax;
+        margin-top: 3vmax;
+        font-size: 3vmax;
+    }
+
+    .form button:hover {
+        border: 1px solid black;
+        color: black;
+        background-color: white;
+    }
+
+    /* footer Section */
+    .footer2 {
+        width: 100vw;
+        max-width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgb(224, 221, 221);
+    }
+
+    .list2 {
+        width: 100%;
+        height: 18vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        bottom: 0;
+    }
+
+    .list2 ul {
+        padding-left: 10px;
+    }
+
+    .list2 ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .list2 ul li:hover {
+        color: gray;
+
+    }
+
+    .copy {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2vmax;
+    }
+
+    /* Special Icon Secction */
+    .stickfoot {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 8vh;
+        max-width: 100%;
+        padding: 0.5vmax;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stickfoot div:nth-child(1) {
+        border-right: 2px solid black;
+    }
+
+    .stickfoot div:nth-child(2) {
+        border-right: 2px solid black;
+    }
+
+    .stickfoot div:nth-child(3) {
+        border-right: 2px solid black;
+    }
+
+    .stickfoot .stickfootCards {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stickfoot .stickfootCards i {
+        font-size: 1.3vmax;
+        padding: 0.3vmax;
+    }
+
+    .stickfootContainer .stickfootCards h5 {
+        font: 300 1vmax sans-serif;
+        padding: 0.3vmax;
+    }
+}

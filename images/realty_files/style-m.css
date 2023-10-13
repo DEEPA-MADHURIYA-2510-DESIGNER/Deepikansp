@@ -1,0 +1,1870 @@
+@font-face {
+    font-family: ringside condensed;
+    src: url(../fonts/RingsideCondensed-Med.woff2) format('woff2'),url(../fonts/RingsideCondensed-Med.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ringside;
+    src: url(../fonts/RingsideRegular-Med.woff2) format('woff2'),url(../fonts/RingsideRegular-Med.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: ringside;
+    src: url(../fonts/RingsideRegular-Light.eot);
+    src: url(../fonts/RingsideRegular-Light.eot?#iefix) format('embedded-opentype'),url(../fonts/RingsideRegular-Light.woff2) format('woff2'),url(../fonts/RingsideRegular-Light.woff) format('woff'),url(../fonts/RingsideRegular-Light.ttf) format('truetype'),url(../fonts/RingsideRegular-Light.svg#RingsideRegular-Light) format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle display;
+    src: url(../fonts/ChronicleDisplay-Light.woff2) format('woff2'),url(../fonts/ChronicleDisplay-Light.woff) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle display semi;
+    src: url(../fonts/ChronicleDisplay-SemiItalic.eot);
+    src: url(../fonts/ChronicleDisplay-SemiItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleDisplay-SemiItalic.woff2) format('woff2'),url(../fonts/ChronicleDisplay-SemiItalic.woff) format('woff'),url(../fonts/ChronicleDisplay-SemiItalic.ttf) format('truetype'),url(../fonts/ChronicleDisplay-SemiItalic.svg#ChronicleDisplay-SemiItalic) format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle display semi;
+    src: url(../fonts/ChronicleDisplay-Semi.eot);
+    src: url(../fonts/ChronicleDisplay-Semi.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleDisplay-Semi.woff2) format('woff2'),url(../fonts/ChronicleDisplay-Semi.woff) format('woff'),url(../fonts/ChronicleDisplay-Semi.ttf) format('truetype'),url(../fonts/ChronicleDisplay-Semi.svg#ChronicleDisplay-Semi) format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle display xlight;
+    src: url(../fonts/ChronicleDisplay-XLight.eot);
+    src: url(../fonts/ChronicleDisplay-XLight.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleDisplay-XLight.woff2) format('woff2'),url(../fonts/ChronicleDisplay-XLight.woff) format('woff'),url(../fonts/ChronicleDisplay-XLight.ttf) format('truetype'),url(../fonts/ChronicleDisplay-XLight.svg#ChronicleDisplay-XLight) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle disp cond;
+    src: url(../fonts/ChronicleDispCond-Light.eot);
+    src: url(../fonts/ChronicleDispCond-Light.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleDispCond-Light.woff2) format('woff2'),url(../fonts/ChronicleDispCond-Light.woff) format('woff'),url(../fonts/ChronicleDispCond-Light.ttf) format('truetype'),url(../fonts/ChronicleDispCond-Light.svg#ChronicleDispCond-Light) format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle display xlight;
+    src: url(../fonts/ChronicleDisplay-XLightItalic.eot);
+    src: url(../fonts/ChronicleDisplay-XLightItalic.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleDisplay-XLightItalic.woff2) format('woff2'),url(../fonts/ChronicleDisplay-XLightItalic.woff) format('woff'),url(../fonts/ChronicleDisplay-XLightItalic.ttf) format('truetype'),url(../fonts/ChronicleDisplay-XLightItalic.svg#ChronicleDisplay-XLightItalic) format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle hairline;
+    src: url(../fonts/ChronicleHairline-Italic.eot);
+    src: url(../fonts/ChronicleHairline-Italic.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleHairline-Italic.woff2) format('woff2'),url(../fonts/ChronicleHairline-Italic.woff) format('woff'),url(../fonts/ChronicleHairline-Italic.ttf) format('truetype'),url(../fonts/ChronicleHairline-Italic.svg#ChronicleHairline-Italic) format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: chronicle hairline;
+    src: url(../fonts/ChronicleHairline-Roman.eot);
+    src: url(../fonts/ChronicleHairline-Roman.eot?#iefix) format('embedded-opentype'),url(../fonts/ChronicleHairline-Roman.woff2) format('woff2'),url(../fonts/ChronicleHairline-Roman.woff) format('woff'),url(../fonts/ChronicleHairline-Roman.ttf) format('truetype'),url(../fonts/ChronicleHairline-Roman.svg#ChronicleHairline-Roman) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: chronicle display!important
+}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span {
+    font-family: chronicle display!important
+}
+
+@media(min-width: 1800px) {
+    .flat-estates .video-block .video-copy h3 {
+        font-size:69px!important;
+        letter-spacing: 3.15px;
+        top: 65px!important
+    }
+
+    .clses.flat-estates .video-block .video-copy h3 {
+        font-size: 60px!important
+    }
+}
+
+.second-fold {
+    margin: 0;
+    padding: 130px 0
+}
+
+.second-fold h2 {
+    font-family: tenorsans-regular;
+    font-size: 51px;
+    color: #000;
+    line-height: 61px;
+    margin-bottom: 15px
+}
+
+.second-fold p {
+    font-family: montserrat-light;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 23px;
+    color: #646464
+}
+
+.second-fold-listing-wrapper {
+    margin: 7% 0 0;
+    padding: 0;
+    text-align: center
+}
+
+.listing-div {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: table;
+    border-right: 0;
+    width: 100%
+}
+
+.second-fold-listing-wrapper .col-lg-4.col-6 {
+    border-right: 1px solid #c9a484
+}
+
+.second-fold-listing-wrapper .col-lg-4.col-6:last-child {
+    border-right: 0
+}
+
+.second-fold-listing-wrapper .col-lg-4 {
+    border-right: 1px solid #c9a484
+}
+
+.second-fold-listing-wrapper .col-lg-4:last-child {
+    border-right: 0
+}
+
+.listing-div img {
+    margin: auto
+}
+
+.listing-div label {
+    margin: 35px 0 0;
+    padding: 0;
+    color: #c9a484;
+    font-family: montserrat-light;
+    font-size: 15px;
+    font-weight: 800;
+    display: inline-block;
+    letter-spacing: 2px
+}
+
+.listing-div p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #000;
+    font-family: montserrat-light;
+    font-size: 15px;
+    font-weight: 300;
+    display: block
+}
+
+.second-fold-listing-wrapper .col-lg-4:last-child .listing-div {
+    border: none!important
+}
+
+.flat-estates.new-landing:after {
+    display: none
+}
+
+.flat-estates.new-landing .amenities:after {
+    display: none
+}
+
+.new-slider-wrapper {
+    margin: 0;
+    padding: 130px 0 120px;
+    text-align: center
+}
+
+.new-slider-wrapper h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 51px
+}
+
+.thum-images {
+    margin: auto;
+    text-align: center;
+    position: relative;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    top: -130px;
+    max-width: 100%;
+    display: none
+}
+
+.grey-background-div {
+    margin: 0;
+    padding: 130px 0;
+    background: #f5f5f5
+}
+
+.grey-background-div h3 {
+    margin: 0 0 80px;
+    padding: 0;
+    font-size: 51px;
+    color: #000;
+    text-align: center
+}
+
+.grey-div-img {
+    width: 100%
+}
+
+.grey-background-div p {
+    margin: 15px 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    line-height: 23px
+}
+
+.bullet-section {
+    margin: 0;
+    padding: 0% 30% 0% 15%
+}
+
+.bullet-section .col-lg-6 {
+    margin-bottom: 30px
+}
+
+.aminities-main-wrapper {
+    margin: 0;
+    padding: 130px 0;
+    text-align: center
+}
+
+.aminities-main-wrapper h3 {
+    margin: 0 0 60px;
+    padding: 0;
+    font-size: 51px;
+    color: #000
+}
+
+.grey-background-div-slider {
+    margin: 0;
+    padding: 130px 0;
+    background: #f5f5f5;
+    text-align: center
+}
+
+.grey-background-div-slider h3 {
+    margin: 0 0 80px;
+    padding: 0;
+    font-size: 51px;
+    color: #000
+}
+
+.grey-background-div-slider p {
+    margin: 0;
+    padding: 0% 25% 1%;
+    color: #646464;
+    font-size: 14px;
+    line-height: 23px
+}
+
+.map-new-section {
+    padding: 100px 0
+}
+
+.map-new-section .map-image {
+    width: 100%
+}
+
+.map-listing-section {
+    margin: 70px 0 0;
+    padding: 0;
+    text-align: center
+}
+
+.map-listing-section .row {
+    justify-content: center
+}
+
+.payment-wrapper .row {
+    justify-content: center
+}
+
+.map-listing-section img {
+    text-align: center;
+    display: inline-block
+}
+
+body .map-listing-section .col-lg-2 {
+    margin-bottom: 30px
+}
+
+body .map-listing-section .col-lg-2 h3 {
+    font-family: ringside!important;
+    font-size: 15px;
+    color: #000;
+    margin: 30px 0 0;
+    font-weight: lighter
+}
+
+body .map-listing-section .col-lg-2 p {
+    font-family: ringside!important;
+    font-size: 12px;
+    color: #646464;
+    margin: 0;
+    font-weight: 200
+}
+
+.why-invest-sobha-dubai-wrapper {
+    margin: 0;
+    padding: 130px 0;
+    background: #f5f5f5
+}
+
+.why-invest-sobha-dubai-wrapper h2 {
+    margin: 0 0 80px;
+    padding: 0;
+    font-size: 51px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.why-invest-sobha-dubai-wrapper i {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top
+}
+
+.invest-div {
+    width: 70%;
+    display: inline-block
+}
+
+.why-invest-sobha-dubai-wrapper .col-lg-4 {
+    margin-bottom: 50px
+}
+
+.invest-div h3 {
+    font-family: ringside!important;
+    font-size: 15px;
+    color: #000;
+    margin: 0 0 10px;
+    font-weight: 300
+}
+
+.invest-div p {
+    font-family: ringside!important;
+    font-size: 14px;
+    color: #646464;
+    margin: 0;
+    font-weight: 400;
+    line-height: 18px
+}
+
+.payment-wrapper {
+    margin: 0;
+    padding: 130px 0;
+    text-align: center;
+    border-bottom: 1px solid #888e91
+}
+
+.payment-wrapper h2 {
+    margin: 0 0 60px;
+    padding: 0;
+    font-size: 51px
+}
+
+.payment-wrapper .col-lg-2 .payment-div {
+    border: 1px solid #c9a484;
+    margin: 20px 10px;
+    padding: 25px;
+    min-height: 245px
+}
+
+.payment-wrapper .col-lg-2 h2 {
+    margin: 0;
+    padding: 0;
+    color: #c9a484
+}
+
+.payment-wrapper .col-lg-2 h3 {
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: ringside!important
+}
+
+.payment-wrapper .col-lg-2 p {
+    margin: 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: ringside!important
+}
+
+.payment-div.completed {
+    background: #c9a484;
+    padding: 38px 50px!important
+}
+
+.payment-div.completed p {
+    color: #fff;
+    font-size: 14px
+}
+
+section.footer-form-area.new-landing {
+    padding-top: 130px
+}
+
+.formPrices {
+    text-align: left;
+    margin: 40px 0
+}
+
+.formPrices h4 {
+    color: #c9a484;
+    font-size: 14px!important;
+    font-family: ringside!important;
+    text-transform: uppercase!important;
+    font-weight: 300!important
+}
+
+.modal .formPrices {
+    text-align: center;
+    margin: 40px auto
+}
+
+.formPrices ul {
+    margin: 0;
+    padding: 0
+}
+
+.formPrices ul li {
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    border-right: 1px solid #000;
+    padding: 0 10px;
+    font-weight: 500;
+    font-family: ringside
+}
+
+.formPrices ul li:last-child {
+    border-right: none
+}
+
+.formPrices ul li:first-child {
+    padding-left: 0
+}
+
+.banner-content.new-landing-page {
+    color: #fff;
+    bottom: 50px!important;
+    position: absolute!important;
+    max-width: 1693px;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+.banner-content.new-landing-page h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 55px;
+    color: #fff
+}
+
+.banner-content.new-landing-page h2 {
+    margin: 0;
+    padding: 0;
+    color: #c9a485;
+    font-size: 55px;
+    display: block
+}
+
+.banner-content.new-landing-page p {
+    font-size: 14px;
+    color: #fff;
+    font-family: ringside;
+    padding-right: 31%;
+    line-height: 26px
+}
+
+.banner-content.new-landing-page .arrow-btn:before {
+    background: #fff
+}
+
+body .banner-content.new-landing-page .arrow-btn span:before {
+    background-color: #000!important
+}
+
+body .banner-content.new-landing-page .arrow-btn:hover span:before {
+    background: #fff!important
+}
+
+.banner-content.new-landing-page .arrow-btn line,.banner-content.new-landing-page .arrow-btn path {
+    stroke: #000
+}
+
+.banner-content.new-landing-page .arrow-btn:hover line,.banner-content.new-landing-page .arrow-btn:hover path {
+    stroke: #fff!important
+}
+
+.arrow-btn {
+    color: #000!important
+}
+
+.amenities-new-slider .image-wrapper-container .icon {
+    width: 40px!important;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.amenities-new-slider .image-wrapper {
+    position: relative
+}
+
+.amenities-new-slider .image-wrapper-container {
+    margin: 0;
+    padding: 16px;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 10000
+}
+
+.amenities-new-slider .image-wrapper-container span {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: ringside;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px
+}
+
+.amenities-new-slider .image-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 210px;
+    background: transparent linear-gradient(180deg,#00000000 0%,#000000B4 45%,#000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    z-index: 10
+}
+
+.amenities-new-slider .active {
+    border: none!important
+}
+
+.arrow-btn span {
+    color: #fff
+}
+
+.banner-content.new-landing-page .arrow-btn span {
+    color: #000
+}
+
+.banner-content.new-landing-page .arrow-btn:hover span {
+    color: #fff!important
+}
+
+.banner-content.new-landing-page img {
+    text-align: left;
+    margin: 0 0 30px!important
+}
+
+.flat-estates .scroll-search {
+    justify-content: center!important
+}
+
+.flat-estates .scroll-search a {
+    margin: 0 15px
+}
+
+.flat-estates .video-block .video-copy h3 {
+    width: 1000px;
+    text-align: center
+}
+
+.grey-background-div-slider .column {
+    width: 14%
+}
+
+.new-landing .listing-div label {
+    font-family: ringside!important
+}
+
+.flat-estates .video-block .video-copy span {
+    line-height: 22px
+}
+
+@media(min-width: 1000px) {
+    .mobile-spacer {
+        display:inline-block!important
+    }
+
+    .desktop-spacer {
+        display: block!important
+    }
+}
+
+@media(max-width: 1000px) {
+    .mobile-spacer {
+        display:block!important
+    }
+
+    .desktop-spacer {
+        display: inline-block!important
+    }
+}
+
+@media(max-width: 991px) {
+    .grey-background-div-slider .column {
+        width:48px!important;
+        padding: 2px
+    }
+
+    .flat-estates .video-block .video-copy h3 {
+        width: 350px;
+        text-align: center
+    }
+}
+
+@media(max-width: 1600px) {
+    .banner-content.new-landing-page h2 {
+        margin:0
+    }
+
+    .second-fold h2 {
+        font-size: 40px;
+        color: #000;
+        line-height: 45px
+    }
+
+    .bullet-section {
+        margin: 0;
+        padding: 0% 15%
+    }
+
+    .payment-wrapper h2 {
+        font-size: 40px
+    }
+
+    .payment-wrapper .col-lg-2 h3 {
+        font-size: 12px
+    }
+
+    .payment-wrapper .col-lg-2 p {
+        font-size: 12px
+    }
+
+    .payment-div.completed {
+        background: #c9a484;
+        padding: 38px 25px!important
+    }
+
+    .thum-images {
+        top: -150px
+    }
+
+    .grey-background-div-slider h3 {
+        margin-bottom: 0
+    }
+
+    .grey-background-div {
+        padding: 120px 0
+    }
+
+    .aminities-main-wrapper {
+        padding: 120px 0
+    }
+
+    .grey-background-div-slider {
+        padding: 120px 0
+    }
+
+    .second-fold {
+        padding: 120px 0
+    }
+
+    .why-invest-sobha-dubai-wrapper {
+        padding: 120px 0
+    }
+
+    .payment-wrapper {
+        padding: 120px 0
+    }
+
+    .payment-wrapper .col-lg-2 .payment-div {
+        margin: 20px 0;
+        min-height: 230px
+    }
+
+    .new-slider-wrapper {
+        padding: 120px 0
+    }
+
+    .clszh .banner-content.new-landing-page h2 {
+        margin: 26px 0 0
+    }
+
+    .clszh .flat-estates .video-block .video-copy h3 {
+        top: 45px
+    }
+}
+
+@media(max-width: 1300px) {
+    .banner-content.new-landing-page h2 {
+        margin:0
+    }
+
+    .second-fold h2 {
+        font-size: 40px;
+        color: #000;
+        line-height: 50px
+    }
+
+    .bullet-section {
+        margin: 0;
+        padding: 0% 15%
+    }
+
+    .payment-wrapper h2 {
+        font-size: 40px
+    }
+
+    .payment-wrapper .col-lg-2 h3 {
+        font-size: 12px
+    }
+
+    .payment-wrapper .col-lg-2 p {
+        font-size: 12px
+    }
+
+    .payment-div.completed {
+        background: #c9a484;
+        padding: 38px 25px!important
+    }
+}
+
+@media(max-width: 991px) {
+    .icon-text-section {
+        text-align:center;
+        margin-top: 80px!important
+    }
+
+    .bullet-section .col-lg-6 {
+        margin-bottom: 30px
+    }
+
+    .grey-background-div p {
+        margin-top: 15px
+    }
+
+    .banner-content.new-landing-page h1 {
+        font-size: 34px
+    }
+
+    .banner-content.new-landing-page h2 {
+        font-size: 34px
+    }
+
+    .banner-content.new-landing-page p {
+        padding-right: 0
+    }
+
+    .second-fold h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 40px
+    }
+
+    .second-fold {
+        padding: 40px 0;
+        text-align: center
+    }
+
+    .second-fold p {
+        margin-bottom: 25px
+    }
+
+    .new-slider-wrapper h3 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .new-slider-wrapper {
+        padding: 80px 0;
+        text-align: center
+    }
+
+    .grey-background-div h3 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .grey-background-div {
+        padding: 80px 0 0;
+        text-align: center
+    }
+
+    .aminities-main-wrapper h3 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .aminities-main-wrapper {
+        padding: 80px 0
+    }
+
+    .grey-background-div-slider h3 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .grey-background-div-slider {
+        padding: 80px 0;
+        text-align: center
+    }
+
+    body.grey-background-div-slider .arrow-btn:hover span {
+        color: #000!important
+    }
+
+    .why-invest-sobha-dubai-wrapper h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .why-invest-sobha-dubai-wrapper {
+        padding: 80px 0;
+        text-align: center
+    }
+
+    .payment-wrapper h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center
+    }
+
+    .payment-wrapper {
+        text-align: center;
+        padding: 80px 0
+    }
+
+    .container-slider {
+        position: relative;
+        padding: 80px 0 0!important
+    }
+
+    .thum-images {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        right: 0;
+        left: 0;
+        max-width: 100%;
+        top: 10px
+    }
+
+    .column {
+        float: left;
+        width: 70px!important;
+        margin: 0!important;
+        padding: 0!important
+    }
+
+    .bullet-section {
+        margin: 0;
+        padding: 10% 15%
+    }
+
+    .bullet-section img {
+        margin: auto;
+        text-align: center
+    }
+
+    .map-new-section .container {
+        padding-left: var(--bs-gutter-x,.75rem);
+        padding-right: var(--bs-gutter-x,.75rem);
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .map-new-section {
+        padding-top: 0
+    }
+
+    .why-invest-sobha-dubai-wrapper .col-lg-4 {
+        margin-bottom: 50px;
+        text-align: left
+    }
+
+    .why-invest-sobha-dubai-wrapper i {
+        margin-right: 25px
+    }
+
+    .invest-div h3 {
+        margin-bottom: 10px
+    }
+
+    .payment-wrapper [class*=row] {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .payment-wrapper [class*=col-] {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .payment-wrapper .col-lg-2 .payment-div {
+        border: 1px solid #c9a484;
+        margin: 10px 5px;
+        padding: 25px
+    }
+
+    .payment-div.completed {
+        background: #c9a484;
+        padding: 38px 25px!important
+    }
+
+    .aminities-main-wrapper .owl-dots {
+        margin-top: 40px
+    }
+
+    .aminities-main-wrapper .owl-theme .owl-dots .owl-dot span {
+        width: 50px;
+        height: 8px;
+        margin: 5px -3px;
+        background: #d6d6d6;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px
+    }
+
+    .aminities-main-wrapper .owl-theme .owl-dots {
+        display: none
+    }
+
+    .aminities-main-wrapper .owl-theme .owl-dots .owl-dot.active span,.aminities-main-wrapper .owl-theme .owl-dots .owl-dot:hover span {
+        background: #c9a485!important
+    }
+
+    .listing-div {
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+        display: table;
+        border-bottom: 1px solid #c9a484;
+        border-right: none;
+        width: 100%
+    }
+
+    .second-fold-listing-wrapper .row {
+        border: 1px solid #c9a484
+    }
+
+    .banner h2 {
+        text-align: left!important;
+        margin-bottom: 50px!important
+    }
+}
+
+.headerMenutwo {
+    padding-right: 0!important
+}
+
+@media(max-width: 1600px) {
+    .flat-estates.new-landing .banner .banner-content .container img {
+        width:100%;
+        max-width: 300px
+    }
+}
+
+header .menu-row ul li a {
+    color: #000!important
+}
+
+header .menu-row .book-btn {
+    border: 1px solid #000!important
+}
+
+@media(max-width: 1399.98px) {
+    .section-title {
+        font-size:40px!important;
+        line-height: 45px!important
+    }
+}
+
+@media(max-width: 768px) {
+    .flat-estates .scroll-search a {
+        margin:0 5px
+    }
+}
+
+@media(max-width: 767px) {
+    .section-title {
+        font-size:30px!important;
+        line-height: 36px!important;
+        font-weight: 300!important
+    }
+
+    .flat-estates .scroll-search a {
+        margin: 0!important
+    }
+
+    .second-fold-listing-wrapper {
+        padding: 0 50px;
+        text-align: center
+    }
+}
+
+.flat-estates .banner {
+    margin-top: -125px
+}
+
+@media(max-width: 1025px) {
+    .flat-estates .banner {
+        height:100vh!important
+    }
+}
+
+.grey-background-div-slider .thum-images {
+    top: 0!important;
+    margin-top: -150px
+}
+
+.grey-background-div-slider p {
+    margin: 50px 0 20px
+}
+
+@media(max-width: 991px) {
+    .grey-background-div-slider .thum-images {
+        top:10px!important;
+        margin-top: 0
+    }
+
+    .grey-background-div-slider p {
+        margin: 30px 0 20px;
+        padding: 0% 8%
+    }
+}
+
+@media(max-width: 767px) {
+    .inner-banner .mobile-banner img {
+        width:100%;
+        height: 100%!important
+    }
+
+    .flat-estates .banner .inner-banner {
+        height: 800px!important
+    }
+
+    .formPrices {
+        text-align: center
+    }
+
+    .payment-wrapper h2 {
+        margin: 0 0 20px
+    }
+}
+
+ul.headerMenutwo {
+    justify-content: flex-end
+}
+
+.grey-background-div-slider .arrow-btn:hover span {
+    color: #000!important
+}
+
+body .sticky .logo svg {
+    filter: none!important
+}
+
+img.menu-trigger {
+    width: 20px
+}
+
+.sticky+.mmenu-page .mobile-header .mh-sticky.mh-pinned {
+    background: #fff!important
+}
+
+@media(max-width: 991px) {
+    .map-wrap {
+        overflow-x:scroll;
+        padding-bottom: 30px
+    }
+
+    .map-new-section .map-image {
+        width: 1000px;
+        max-width: 1000px
+    }
+
+    .map-wrap::-webkit-scrollbar {
+        height: 8px
+    }
+
+    .map-wrap::-webkit-scrollbar-track {
+        background: #e5e5e5;
+        border-radius: 3px
+    }
+
+    .map-wrap::-webkit-scrollbar-thumb {
+        border-radius: 3px;
+        background: #c9a484
+    }
+}
+
+@media(min-width: 400px) and (max-width:420px) {
+    .banner-content.new-landing-page {
+        bottom:135px!important
+    }
+}
+
+@media(max-width: 768px) {
+    .flat-estates .scroll-search a {
+        margin:0 5px
+    }
+}
+
+button.owl-prev {
+    margin: 0;
+    padding: 0;
+    background: url(../images/new-slider-left-arrow.png) no-repeat 0 0!important;
+    width: 90px!important;
+    height: 90px!important;
+    background-size: contain!important
+}
+
+button.owl-next {
+    margin: 0;
+    padding: 0;
+    background: url(../images/new-slider-right-arrow.png) no-repeat 0 0!important;
+    width: 90px!important;
+    height: 90px!important;
+    background-size: contain!important
+}
+
+button.owl-prev span,button.owl-next span {
+    opacity: 0!important
+}
+
+@media(max-width: 768px) {
+    body.flat-estates.new-landing.iti-mobile .video-copy {
+        position:absolute!important;
+        transform: translate(-50%,-50%)!important;
+        top: 50%!important;
+        left: 50%!important
+    }
+
+    .listing-div label {
+        font-size: 18px
+    }
+}
+
+@media(max-width: 575.98px) {
+    .flat-estates .scroll-search .arrow-btn {
+        margin-bottom:10px!important
+    }
+
+    .banner-content.new-landing-page .arrow-btn .arrow-icon {
+        padding-right: 36px
+    }
+}
+
+@media(min-width: 767px) and (max-width:770px) {
+    .flat-estates .banner {
+        height:75vh!important
+    }
+
+    .flat-estates .banner .desktop-banner img {
+        height: 70vh!important
+    }
+
+    .banner-content.new-landing-page {
+        bottom: 90px!important
+    }
+}
+
+.aminities-main-wrapper .owl-theme .owl-dots {
+    display: none
+}
+
+.icon-text-section {
+    text-align: center;
+    margin-top: 110px
+}
+
+.icon-text-section .col-lg-3 {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.icon-text-section p {
+    margin: 30px 0 0;
+    padding: 0 50px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    line-height: 23px
+}
+
+.icon-text-section img {
+    margin: 0 auto
+}
+
+.icon-text-section h3 {
+    display: none
+}
+
+@media(min-width: 992px) and (max-width:5000px) {
+    body .map-listing-section .col-lg-2 {
+        width:17%
+    }
+
+    body .payment-wrapper .col-lg-2 {
+        width: 17%
+    }
+
+    .new-landing-right {
+        padding-left: 10%
+    }
+}
+
+@media(min-width: 1200px) and (max-width:1300px) {
+    .bullet-section .col-lg-6 {
+        margin-bottom:70px
+    }
+
+    .bullet-section .col-lg-6:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media(min-width: 1301px) and (max-width:1700px) {
+    .bullet-section .col-lg-6 {
+        margin-bottom:85px
+    }
+
+    .bullet-section .col-lg-6:last-child {
+        margin-bottom: 0
+    }
+}
+
+@media(min-width: 1701px) and (max-width:5000px) {
+    .bullet-section {
+        margin:0;
+        padding: 15% 30% 0% 15%
+    }
+}
+
+.new-landing .menu-row.new-header ul {
+    display: none!important
+}
+
+.new-landing .mh-btns-left {
+    display: none!important
+}
+
+@media only screen and (max-width: 575px) {
+    .flat-estates .video-block .video-copy h3 {
+        top:0!important
+    }
+}
+
+@media(min-width: 1601px) and (max-width:1800px) {
+    .payment-wrapper .col-lg-2 .payment-div {
+        padding:25px 10px!important
+    }
+
+    .payment-div.completed {
+        padding: 38px 10px!important
+    }
+}
+
+@media(min-width: 1000px) and (max-width:1024px) {
+    .payment-wrapper .col-lg-2 .payment-div {
+        padding:25px 0
+    }
+
+    .payment-div.completed {
+        padding: 38px 15px!important
+    }
+}
+
+@media(max-width: 992px) {
+    .flat-estates .scroll-search .download {
+        max-width:150px;
+        width: 100%!important
+    }
+
+    .section-title {
+        font-size: 30px!important;
+        line-height: 45px!important
+    }
+}
+
+.new-landing .footer-form-area .section-title {
+    margin-top: 10%
+}
+
+@media(max-width: 1600px) {
+    .payment-wrapper .col-lg-2 .payment-div {
+        min-height:245px
+    }
+}
+
+@media(max-width: 575.98px) {
+    .payment-wrapper .col-lg-2 .payment-div {
+        border:1px solid #c9a484;
+        margin: 10px 5px;
+        padding: 15px;
+        min-height: 185px
+    }
+
+    .payment-div.completed {
+        background: #c9a484;
+        padding: 14px 20px!important
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-form-area h4 {
+        text-align:center;
+        padding-bottom: 18px
+    }
+
+    .banner-content.new-landing-page {
+        bottom: 120px!important
+    }
+
+    .formPrices ul {
+        text-align: center
+    }
+
+    .formPrices ul li {
+        font-size: 16px;
+        padding: 0 6px
+    }
+}
+
+.flat-estates .video-block .video-copy span {
+    font-family: chronicle hairline!important
+}
+
+.new-landing .row.footer-form-row {
+    margin-left: 0
+}
+
+.new-landing header.sticky {
+    position: inherit!important;
+    background-color: transparent!important
+}
+
+#registerCaptionDivClass .formPrices {
+    text-align: left;
+    margin: 10px 0 40px
+}
+
+.flat-estates .video-block .video-copy span {
+    line-height: 13px
+}
+
+.banner h2 {
+    line-height: 63px!important
+}
+
+@media only screen and (max-width: 400px) {
+    .formPrices ul li {
+        font-size:11px
+    }
+
+    .formPrices ul {
+        text-align: center
+    }
+
+    .formPrices ul li {
+        font-size: 14px;
+        padding: 0 6px
+    }
+
+    .flat-estates .video-block .video-copy span {
+        line-height: 18px
+    }
+}
+
+.new-slider-owl .owl-nav {
+    position: absolute!important;
+    transform: translateY(-50%)!important;
+    top: 50%!important;
+    width: 100%!important
+}
+
+.new-slider-owl button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: -35px!important
+}
+
+.new-slider-owl button.owl-next {
+    position: absolute;
+    right: 0;
+    top: -35px!important
+}
+
+.new-slider-owl-2 .owl-nav {
+    position: absolute!important;
+    transform: translateY(-50%)!important;
+    top: 50%!important;
+    width: 100%!important
+}
+
+.new-slider-owl-2 button.owl-prev {
+    position: absolute;
+    left: 0;
+    top: -35px!important
+}
+
+.new-slider-owl-2 button.owl-next {
+    position: absolute;
+    right: 0;
+    top: -35px!important
+}
+
+@media only screen and (max-width: 991px) {
+    .new-slider-owl button.owl-prev {
+        position:absolute;
+        left: 0;
+        top: -40px!important;
+        width: 60px!important;
+        height: 60px!important
+    }
+
+    .new-slider-owl button.owl-next {
+        position: absolute;
+        right: 0;
+        top: -40px!important;
+        width: 60px!important;
+        height: 60px!important
+    }
+}
+
+.flat-estates .scroll-search {
+    display: none!important
+}
+
+@media(max-width: 1400px) {
+    .formPrices ul li {
+        font-size:13px!important
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .new-slider-owl-2 button.owl-prev {
+        position:absolute;
+        left: 0;
+        top: -40px!important;
+        width: 60px!important;
+        height: 60px!important
+    }
+
+    .new-slider-owl-2 button.owl-next {
+        position: absolute;
+        right: 0;
+        top: -40px!important;
+        width: 60px!important;
+        height: 60px!important
+    }
+
+    .amenities-new-slider .image-wrapper-container span {
+        letter-spacing: 0
+    }
+
+    .scroll-search.stickey {
+        display: none!important
+    }
+
+    .flat-estates .scroll-search {
+        display: none!important
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .amenities-new-slider .image-wrapper-container span {
+        letter-spacing:0
+    }
+}
+
+.mySwiper-new img {
+    width: 100%
+}
+
+.floating-icons-mob ul li {
+    display: inline-block;
+    padding: 14px 5px;
+    width: calc(100%/4 - 5px)!important;
+    position: relative
+}
+
+.gap-divider {
+    height: 50px
+}
+
+@media(max-width: 1500px) {
+    .flat-estates .video-block .video-copy h3 {
+        font-size:60px!important;
+        letter-spacing: 2.5px;
+        top: 50px!important
+    }
+
+    .clses.flat-estates .video-block .video-copy h3 {
+        font-size: 55px!important
+    }
+
+    .icon-text-section p {
+        padding: 0 15px
+    }
+
+    @media(max-width: 991px) {
+        .flat-estates .video-block .video-copy h3 {
+            line-height:34px!important;
+            font-size: 30px!important;
+            top: 30px!important
+        }
+
+        .clses.flat-estates .video-block .video-copy h3 {
+            line-height: 34px!important;
+            font-size: 30px!important;
+            top: 30px!important
+        }
+
+        .amenities-new-slider .image-wrapper-container {
+            display: flex;
+            align-items: center
+        }
+
+        .image-wrapper-container i {
+            margin-right: 10px
+        }
+
+        .banner h2 {
+            line-height: 40px!important
+        }
+    }
+
+    @media(max-width: 420px) {
+        body.flat-estates .video-block .video-copy h3 {
+            line-height:34px!important;
+            font-size: 34px!important
+        }
+    }
+
+    @media(max-width: 2000px) {
+        .amenities-new-slider .image-wrapper-container {
+            display:flex;
+            align-items: center
+        }
+
+        .image-wrapper-container i {
+            margin-right: 10px
+        }
+    }
+
+    @media(width: 1024px) {
+        .why-invest-sobha-dubai-wrapper i {
+            margin-right:20px
+        }
+    }
+
+    .modal-content .iti__flag-container {
+        height: 54px;
+    }
+
+    @media(max-width: 767px) {
+        .flat-estates.new-landing .banner .banner-content .container img {
+            max-width:200px;
+            margin-bottom: 10px!important
+        }
+
+        .banner h2 {
+            margin-bottom: 25px!important
+        }
+    }
+
+    @media only screen and (width: 375px) {
+        .banner-content.new-landing-page {
+            bottom:75px!important
+        }
+    }
+
+    .banner-content.new-landing-page.open-house {
+        color: #fff;
+        position: absolute!important;
+        max-width: 1693px;
+        left: 50%;
+        right: inherit!important;
+        margin: auto;
+        transform: translate(-55%);
+        top: 45%;
+        bottom: inherit!important;
+        padding: 0!important
+    }
+
+    .banner-content.new-landing-page.open-house .col-lg-6.new-landing-left {
+        width: 100%;
+        text-align: center
+    }
+
+    .banner-content.new-landing-page.open-house .new-landing-right {
+        padding-left: 0;
+        width: 100%;
+        text-align: center
+    }
+
+    .banner-content.new-landing-page.open-house p {
+        padding-right: 0;
+        font-size: 18px
+    }
+
+    @media(max-width: 1600px) {
+        .banner-content.new-landing-page.open-house h1 {
+            font-size:40px
+        }
+
+        .banner-content.new-landing-page.open-house h2 {
+            font-size: 38px;
+            margin-bottom: 20px
+        }
+
+        .banner-content.new-landing-page.open-house p {
+            font-size: 18px
+        }
+    }
+
+    @media(max-width: 1100px) {
+        .banner-content.new-landing-page.open-house h1 {
+            font-size:40px
+        }
+
+        .banner-content.new-landing-page.open-house h2 {
+            font-size: 38px;
+            margin-bottom: 20px
+        }
+
+        .banner-content.new-landing-page.open-house p {
+            font-size: 17px
+        }
+    }
+
+    @media(max-width: 991px) {
+        .banner-content.new-landing-page.open-house {
+            color:#fff;
+            position: absolute!important;
+            max-width: 100%;
+            width: 100%;
+            left: 50%;
+            margin: auto;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            bottom: inherit!important;
+            padding: 0 25px!important
+        }
+
+        .banner-content.new-landing-page.open-house h1 {
+            font-size: 25px;
+            line-height: 30px
+        }
+
+        .banner-content.new-landing-page.open-house h2 {
+            font-size: 25px;
+            margin-bottom: 20px;
+            text-align: center!important;
+            line-height: 30px!important
+        }
+
+        .banner-content.new-landing-page.open-house p {
+            font-size: 17px
+        }
+
+        .second-fold-listing-wrapper .col-lg-4 {
+            border-right: none
+        }
+
+        .sticky+.mmenu-page .mobile-header .mh-sticky.mh-pinned {
+            display: none!important
+        }
+
+        .clsru h2,.clsru h3 {
+            font-weight: 300!important
+        }
+
+        h4 br {
+            display: block!important
+        }
+    }
+
+    @media(max-width: 575.98px) {
+        .clses .arrow-btn {
+            font-size:11px!important
+        }
+    }
+
+    @media only screen and (max-width: 575px) {
+        .flat-estates .video-block .video-copy span {
+            font-size:11px!important
+        }
+    }
+
+    @media(min-width: 568px) and (max-width:767px) {
+        .inner-banner .mobile-banner img {
+            height:700px!important
+        }
+
+        .flat-estates .banner {
+            height: 700px!important
+        }
+    }
+
+    @media(width: 393px) {
+        .flat-estates .banner {
+            height:700px!important
+        }
+    }
+
+    @media(max-width: 420px) {
+        body.flat-estates.clsde .video-block .video-copy h3 {
+            line-height:25px!important;
+            font-size: 17px!important
+        }
+    }
+
+    .flat-estates .scroll-searchï¿½ {
+        display: none!important
+    }
+
+    @media(min-width: 1200px) {
+        .flat-estates .video-block .video-copy h3 {
+            margin-top:40px;
+            margin-bottom: 40px
+        }
+
+        .flat-estates .video-block .video-copy {
+            top: 48%
+        }
+    }
+
+    body.flat-estates .video-block .video-copy h3:after,body.flat-estates .video-block .video-copy h3:before {
+        display: none
+    }
+
+    @media(max-width: 1200px) {
+        .flat-estates .video-block .video-copy h3 {
+            margin-top:10px!important;
+            margin-bottom: 10px!important
+        }
+    }
+}
+
+.amenities-new-slider .image-wrapper-container {
+    display: flex;
+    align-items: center
+}
+
+.image-wrapper-container i {
+    margin-right: 10px
+}
+
+@media(min-width: 1100px) and (max-width:1190px) {
+    .payment-wrapper .col-lg-2 p {
+        font-size:10px
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width:991px) and (orientation:landscape) {
+    .desktop-banner img {
+        height:700px!important
+    }
+
+    .flat-estates .banner {
+        height: 700px!important
+    }
+}
+
+.flat-estates.clsde .video-block .video-copy h3 {
+    text-align: center;
+    line-height: 70px!important
+}
+
+@media(max-width: 991px) {
+    .flat-estates.clsde .video-block .video-copy h3 {
+        text-align:center;
+        line-height: 30px!important
+    }
+}
+
+.video-block h3 {
+    margin-top: 25px!important
+}
+
+@media(min-width: 1000px) and (max-width:1100px) {
+    .banner-content.new-landing-page.clsru .arrow-btn span {
+        font-size:15px!important
+    }
+}
+
+@media(min-width: 1501px) and (max-width:1601px) {
+    .flat-estates .video-block .video-copy h3 {
+        top:65px!important
+    }
+}
+
+@media (max-width: 767px) {
+    .modal-content .iti__flag-container { height: 55px !important; } 
+}
